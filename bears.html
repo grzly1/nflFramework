@@ -42,7 +42,7 @@
                     <span class="sr-only">Toggle navigation</span>
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html">Home</a>
+                <a class="navbar-brand" href="index.html">NFL Bar Finder Home</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -53,9 +53,6 @@
                     </li>
                     <li>
                         <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="post.html">Sample Post</a>
                     </li>
                     <li>
                         <a href="contact.html">Contact</a>
@@ -74,20 +71,45 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="site-heading">
-                        <h1>NFL Bar Finder</h1>
+                        <h1><img src="img/nfl-logo.png" width="24%"> Bar Finder</h1>
                         <hr class="small">
-                        <span class="subheading">Find your NFL team's bar.  Anywhere.</span>
+                        <span class="subheading">Find your NFL team's bar.  Anywhere you are.</span>
+                        <button class="allow_location">Allow Browser to Access Location</button>
+
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <div class="team-page-header">
+    <div class="yelp-grid">
 
-        <img src="img/bears.jpg" width="100%">
+        <div class="row">
 
+            <div class="col-sm-6 col-xs-12">
+                <img src="img/bears.jpg" width="100%">
+            </div>
+
+            <div class="col-sm-6 col-xs-12">
+                <img src="img/yelp_snip.png" width="100%">
+
+            </div>
+
+        </div>
     </div>
+
+    <!-- omdb-------->-->
+
+    <input id="searchBox" class="form-signin" type="text" placeholder="Enter a movie title" />
+    <button id="submitBtn" class="btn btn-info" type="submit">Search</button>
+
+    <br>
+
+    <div id="searchResults">
+    </div>
+
+
+    <!-- end omdb------->-->
 
     <!-- Main Content -->
 
@@ -100,7 +122,7 @@
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <ul class="list-inline text-center">
                         <li>
-                            <a href="#">
+                            <a href="https://twitter.com/">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -108,7 +130,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://www.facebook.com/hollingsworth.matt?ref=br_rs">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -116,7 +138,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://github.com/grzly1">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -124,12 +146,11 @@
                             </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
+                    <p class="copyright text-muted">Copyright &copy; Teton Digital 2016</p>
                 </div>
             </div>
         </div>
     </footer>
-
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
@@ -140,8 +161,19 @@
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
     <!-- Theme JavaScript -->
+    <script src="main.js" type="text/javascript"></script>
+
     <script src="js/clean-blog.min.js"></script>
+
+    <!-- <script src="https://api.yelp.com/v2/search/?term=ChicagoBearsBar&location=Denver&limit=3&category_filter=sportsbars"></script> -->
+
+</body>
+
+</html>
+
 
 </body>
 

@@ -21,6 +21,8 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -42,7 +44,7 @@
                     <span class="sr-only">Toggle navigation</span>
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html">Home</a>
+                <a class="navbar-brand" href="index.html">NFL Bar Finder Home</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -53,9 +55,6 @@
                     </li>
                     <li>
                         <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="post.html">Sample Post</a>
                     </li>
                     <li>
                         <a href="contact.html">Contact</a>
@@ -74,24 +73,26 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="site-heading">
-                        <h1>NFL Bar Finder</h1>
+                        <h1><img src="img/nfl-logo.png" width="24%"> Bar Finder</h1>
                         <hr class="small">
-                        <span class="subheading">Find your NFL team's bar.  Anywhere.</span>
+                        <span class="subheading">Find your NFL team's bar.  Anywhere you are.</span>
+
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <div class="testdiv">
-
-    </div>
+    <!-- <script>
+        document.getElementById("demo").innerHTML =
+            obj.pagination[];
+    </script> -->
 
     <div class="teams-grid">
 
         <div class="team">
 
-            <div class="col-md-2 col-sm-2 col-xs-4 team">
+            <div class="col-md-2 col-sm-2 col-xs-4 no-gutter">
 
                 <a href="bears.html"><img src="img/bears.jpg" width="100%"></a>
                 <!-- <button class="btn btn-default">
@@ -273,13 +274,13 @@
 
             </div>
 
-            <div class="col-md-2 col-sm-2 col-xs-4 no-gutter">
+            <div class="col-md-2 col-sm-2 col-xs-offset-4 no-gutter center">
 
                 <img src="img/titans.jpg" width="100%">
 
             </div>
 
-            <div class="col-md-2 col-sm-2 col-xs-4 no-gutter">
+            <div class="col-md-2 col-sm-2 col-xs-4 no-gutter center">
 
                 <img src="img/vikings.jpg" width="100%">
 
@@ -302,7 +303,7 @@
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <ul class="list-inline text-center">
                         <li>
-                            <a href="#">
+                            <a href="https://twitter.com/">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -310,7 +311,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://www.facebook.com/hollingsworth.matt?ref=br_rs">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -318,7 +319,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://github.com/grzly1">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -326,7 +327,7 @@
                             </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
+                    <p class="copyright text-muted">Copyright &copy; Teton Digital 2016</p>
                 </div>
             </div>
         </div>
@@ -344,6 +345,15 @@
 
     <!-- Theme JavaScript -->
     <script src="js/clean-blog.min.js"></script>
+    <script src="main.js"></script>
+
+    <!-- sha1 -->
+    <!-- <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/hmac-sha1.js"></script> -->
+    <!-- sha256 -->
+    <!-- <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/hmac-sha256.js"></script>
+
+    <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/components/enc-base64-min.js"></script>
+    <script src="oauth-1.0a.js"></script> -->
 
 </body>
 

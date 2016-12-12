@@ -4,10 +4,26 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-body {
-    font-family: 'Lora', 'Times New Roman', serif;
+html, body {
+    font-family: 'Russo One', sans-serif;
     font-size: 20px;
-    color: #333333;
+    color: #red;
+    flex: auto;
+    flex-flow: column;
+}
+
+
+/*html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+}*/
+
+main {
+    display: flex;
+    flex: auto;
 }
 
 p {
@@ -436,20 +452,24 @@ body {
     padding-top: 15px;
 }
 
+#title {
+    position: absolute;
+    ;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+    background-color: #red;
+    padding: 3px;
+    border: 1px solid #999;
+    font-family: sans-serif;
+}
+
+#map {
+    flex: auto;
+}
+
 
 /*.no-gutter>[class*='col-'] {
     padding-right: 0;
     padding-left: 0;
 }*/
-
-.testdiv {
-    height: auto;
-    width: auto;
-    "pagination": {
-        "deprecation_warning": "next_max_id and min_id are deprecated for this endpoint; use min_tag_id and max_tag_id instead"
-    }
-    , "meta": {
-        "code": 200
-    }
-    , "data": []
-}

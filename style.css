@@ -1,0 +1,42 @@
+/*html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+}
+
+body {
+    flex: auto;
+}
+
+main {
+    display: flex;
+    flex: auto;
+}
+
+#title {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+    background-color: #fff;
+    padding: 3px;
+    border: 1px solid #999;
+    font-family: sans-serif;
+}
+
+#map {
+    flex: auto;
+    /*height: 100%;
+  top: 24px;*/
+
+
+/*}
+.map-flex {
+    display: flex;
+    flex: auto;
+}
+.team {
+    flex: auto;
+}*/

@@ -25,3 +25,19 @@
     "url": "https://github.com/BlackrockDigital/startbootstrap-clean-blog.git"
   }
 }
+
+"employees":[
+    {"firstName":"John", "lastName":"Doe"},
+    {"firstName":"Anna", "lastName":"Smith"},
+    {"firstName":"Peter", "lastName":"Jones"}
+]
+
+"instagram":{
+    "pagination": {
+        "deprecation_warning": "next_max_id and min_id are deprecated for this endpoint; use min_tag_id and max_tag_id instead"
+    },
+    "meta": {
+        "code": 200
+    },
+    "data": []
+}
