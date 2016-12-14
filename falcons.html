@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>NFL Bar Finder</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">NFL Bar Finder Home</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/football_banner.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <h1><img src="img/nfl-logo.png" width="24%"> Bar Finder</h1>
+                        <hr class="small">
+                        <span class="subheading">Find your NFL team's bar.  Anywhere you are.</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- <button class="allow_location">Allow Browser to Access Location</button> -->
+
+    <div class="yelp-grid">
+
+        <div class="row">
+
+            <div class="col-sm-6 col-xs-12">
+
+                <img src="img/falcons.jpg" width="100%">
+
+            </div>
+
+            <div class="col-sm-6 col-xs-12">
+
+                <div id="map"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+    <!-- Main Content -->
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container ">
+            <div class="row ">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+                    <ul class="list-inline text-center ">
+                        <li>
+                            <a href="https://twitter.com/ ">
+                                <span class="fa-stack fa-lg ">
+                                    <i class="fa fa-circle fa-stack-2x "></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse "></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/hollingsworth.matt?ref=br_rs ">
+                                <span class="fa-stack fa-lg ">
+                                    <i class="fa fa-circle fa-stack-2x "></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse "></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/grzly1 ">
+                                <span class="fa-stack fa-lg ">
+                                    <i class="fa fa-circle fa-stack-2x "></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse "></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted ">Copyright &copy; Teton Digital 2016</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js "></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js "></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js "></script>
+    <script src="js/contact_me.js "></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/clean-blog.min.js "></script>
+    <!-- <script src="main.js "></script> -->
+
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxYLdo6cDmXNgccaY8kEAUHL4rGcroTgk&libraries=places&callback=initMap " async defer>
+    </script> -->
+
+    <script>
+        // This example requires the Places library. Include the libraries=places
+        // parameter when you first load the API. For example:
+        // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places ">
+
+        //find current location start------->
+
+        // function getLocation() {
+        //     if (navigator.geolocation) {
+        //         navigator.geolocation.getCurrentPosition(showPosition);
+        //     } else {
+        //         alert("Geolocation is not supported by this browser. ");
+        //     }
+        // }
+        //
+        // function showPosition(position) {
+        //     searchLat = position.coords.latitude;
+        //     searchLong = position.coords.longitude;
+        //     var lat = position.coords.latitude;
+        //     var lng = position.coords.longitude;
+        //     map.setCenter(new google.maps.LatLng(lat, lng));
+        // }
+        //
+        // var options = {
+        //     enableHighAccuracy: true,
+        //     timeout: 5000,
+        //     maximumAge: 0
+        // };
+        //
+        // function success(pos) {
+        //     var crd = pos.coords;
+        //     searchLat = crd.latitude;
+        //     searchLong = crd.longitude;
+        //
+        //     console.log('Your current position is:');
+        //     console.log('Latitude : ' + crd.latitude);
+        //     console.log('Longitude: ' + crd.longitude);
+        //     console.log('More or less ' + crd.accuracy + ' meters.');
+        // };
+        //
+        // function error(err) {
+        //     console.warn('ERROR(' + err.code + '): ' + err.message);
+        // };
+        //
+        // navigator.geolocation.getCurrentPosition(success, error, options);
+
+        //find current location end------>
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxYLdo6cDmXNgccaY8kEAUHL4rGcroTgk&libraries=places&callback=initMap " async defer>
+    </script>
+
+    <script>
+        //business search start------>
+
+        // $('.allow_location').on('click', function() {
+        //     $('#searchResults').empty();
+        //
+        //     let $query = $.getJSON("https://maps.googleapis.com/maps/api/js?key=AIzaSyCxYLdo6cDmXNgccaY8kEAUHL4rGcroTgk&libraries=places&callback=initMap")
+        //
+        //     $query.done((data) => {
+        //         if ($query.status !== 200) {
+        //             return;
+        //         }
+        //         // console.log(data);
+        //         let results = data.Search;
+        //
+        //         // Function to take JSON object and populate the HTML DOM
+        //         breakDownSearchResults(results)
+        //
+        //         console.log(results)
+        //
+        //     });
+        //     $query.fail(function(err) {
+        //         console.log(err);
+        //     })
+        // })
+        //
+        // const breakDownSearchResults = function(array) {
+        //     array.forEach((result) => {
+        //         let newResult = document.createElement("div")
+        //         $(newResult).addClass("result")
+        //         $("#searchResults").append(populateResultDivs(result, newResult))
+        //             // console.log(result);
+        //     })
+        // }
+
+        var map;
+        var infowindow;
+
+        function initMap() {
+            var pyrmont = {
+                lat: 39.7392,
+                lng: -104.9903
+            };
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: pyrmont,
+                zoom: 13
+            });
+            infowindow = new google.maps.InfoWindow();
+            var request = {
+                location: pyrmont,
+                radius: '500',
+                query: 'Atlanta Falcons Bar'
+            };
+            service = new google.maps.places.PlacesService(map);
+            service.textSearch(request, callback);
+        }
+
+        function callback(results, status) {
+            if (status === google.maps.places.PlacesServiceStatus.OK) {
+                for (var i = 0; i <
+                    results.length; i++) {
+                    createMarker(results[i]);
+                }
+            }
+        }
+
+        function createMarker(place) {
+            var placeLoc = place.geometry.location;
+            var marker = new google.maps.Marker({
+                map: map,
+                position: place.geometry.location
+            });
+            google.maps.event.addListener(marker,
+                'click',
+                function() {
+                    infowindow.setContent(place.name);
+                    infowindow.open(map, this);
+
+
+                });
+        }
+    </script>
+
+</html>
